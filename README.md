@@ -1,6 +1,7 @@
 # File-and-Folder-Operations
 
 Explanation of the Code
+
 Creating a File: The create_file function takes a file path and content as arguments and creates a file with the specified content.
 
 Creating a Folder: The create_folder function creates a folder at the specified path. The exist_ok=True argument ensures no error is raised if the folder already exists.
