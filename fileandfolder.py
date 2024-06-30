@@ -41,21 +41,3 @@ def delete_folder(folder_path):
     """Delete a folder and all its contents."""
     shutil.rmtree(folder_path)
     print(f"Folder deleted: {folder_path}")
-
-# Example usage:
-
-# Creating files and folders
-create_file('example.txt', 'Hello, world!')
-create_folder('example_folder')
-
-# Moving files and folders
-move_file('example.txt', 'example_folder/example.txt')
-move_folder('example_folder', 'new_example_folder')
-
-# Renaming files and folders
-rename_file('new_example_folder/example.txt', 'new_example_folder/renamed_example.txt')
-rename_folder('new_example_folder', 'renamed_example_folder')
-
-# Deleting files and folders
-delete_file('renamed_example_folder/renamed_example.txt')
-delete_folder('renamed_example_folder')
